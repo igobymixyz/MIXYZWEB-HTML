@@ -1,0 +1,36 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1D1E20;
+}
+.home-image {
+  top: 89px;
+  left: 0px;
+  right: 0px;
+  width: 163px;
+  height: 163px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.home-image1 {
+  top: 312px;
+  left: 0px;
+  right: 0px;
+  width: 459px;
+  height: 31px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+@media(max-width: 479px) {
+  .home-image1 {
+    width: 282px;
+    height: 18px;
+  }
+}
